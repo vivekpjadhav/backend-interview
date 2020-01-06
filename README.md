@@ -2,7 +2,7 @@
 
 This directory contains two sets of problems in two subdirectores called
 `json-manipulation` and `mystery-duplicates`. Each contains its own `README.md`
-file which explain a set of `TASK`s you need to complete.
+file which explain a set of `Task`s you need to complete.
 
 Fork this repo and complete all of the `Task`s described in the subproject
 `README.md` files, so we can see your solutions and git usage.
