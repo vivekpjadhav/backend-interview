@@ -34,7 +34,7 @@ public class Main {
              *   better way to write is the create static comparator
              */
             record1.getTextArray().sort(new Text.TextComparator());
-            record1.getTextArray().stream().forEach(System.out::println);
+            record1.getTextArray().stream().map(n->n.getTextdata()).forEach(System.out::println);
 
 
             /**
