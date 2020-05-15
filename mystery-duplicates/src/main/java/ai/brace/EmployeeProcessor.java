@@ -43,7 +43,7 @@ public class EmployeeProcessor
         for (Map.Entry<Employee, Integer> entry : duplicateCount.entrySet())
         {
             final Employee emp = entry.getKey();
-            System.out.println(emp.firstName + " " + emp.middleInitial + " " + emp.lastName + ": " + entry.getValue());
+            System.out.println(emp.getFirstName() + " " + emp.getMiddleInitial() + " " + emp.getLastName() + ": " + entry.getValue());
         }
     }
 }
